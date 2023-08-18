@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width:100%;
+    height:8vh;
+    background: #ffff;
+    border-bottom: 1px solid #d9d9d9;
+    display: inline-flex;
+    position: fixed;    
+}
+.head1{
+    width: 25%;
+    height:8vh;
+   
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.head2{
+    width: 38%;
+    height:8vh;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.head3{
+    width: 29%;
+    height:8vh;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+#i1{
+    font-size: 20px;
+}
+#bt1{
+    padding: 8px 25px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+#i2{
+    font-size: 30px;
+    color: grey;
+}
+#i3{
+    font-size: 20px;
+}
+#inp1{
+    width: 60%;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+h6{
+    font-size: 14px !important;
+}
+#bt2{
+    background-color: blue;
+    padding: 7px 20px  ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#bt3{
+    background-color: blue;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+/* start footer */
+footer{
+    width: 6%;
+    height: 92vh;
+    border-right: 1px solid #d9d9d9;
+    position: fixed;
+    margin-top: 57px;
+    background: #ffff;
+    display: inline-flex; 
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+/* main start */
+main{
+    width: 95%;
+    height: 100vh;
+    float: right;
+    display: inline-flex;
+}
+.rowii{
+    width: 1400px;
+    position: relative;
+    bottom: 600px;
+    z-index: -1 ;
+}
+.carousel{
+    border-radius: 15px !important;
+}
+.rowii{
+    padding: 15px;
+    display: flex !important;
+    gap: 50px;
+
+}
+.h1ii{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #006aff;
+    font-size: 20px;
+}
+.pii{
+    color: #1c1c1c;
+    padding-top: 20px;
+    font-size: 17px;
+}
+.p2ii{
+    padding-top: 20px;
+    color: #575757;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+img{
+    border-radius: 10px;
+}
+.colii{
+    border-radius: 10px;
+}
+.btnii{
+    padding: 10px 15px;
+    color: #ffff;
+    background: #006aff;
+    font-size: 13px;
+    border: none;
+    border-radius: 10px;
+}
+.buttonoo{
+    width: 80px !important;
+}
